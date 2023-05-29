@@ -1,0 +1,45 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/Fileofish/minesweeper.git"
+  },
+  "description": "The minesweeper game was developed by RS School student Oleg Bukhryakov (@Fileofish) as part of an educational project.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=development webpack --mode development",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "minesweeper",
+    "game"
+  ],
+  "author": "Oleg Bukhryakov <oleg.b9113@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.8",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

@@ -1,0 +1,135 @@
+[
+  {"tagName": "main", "className": "main", "children": [
+    {"tagName": "div", "className": "menu__bg-opacity", "children": [
+      {"tagName": "div", "className": "menu", "children": [
+        {"tagName": "div", "className": "menu__wrapper", "children": [
+          {"tagName": "h2", "className": "menu-header", "innerHTML": "<span>M</span>ines<span>w</span>eeper"},
+          {"tagName": "div", "className": "menu__save-game", "children": [
+            {"tagName": "h3", "className": "menu-save-load-game-title", "innerHTML": "Save game ..."},
+            {"tagName": "div", "className": "menu__save-cells", "children": [
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC1"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC2"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC3"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC4"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC5"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC6"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC7"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC8"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC9"},
+              {"tagName": "div", "className": "menu__cell cell-save", "innerHTML": "Empty cell...", "id": "sC10"}
+            ]},
+            {"tagName": "button", "className": "button continue", "innerHTML": "Back"}
+          ]},
+          {"tagName": "div", "className": "menu__load-game", "children": [
+            {"tagName": "h3", "className": "menu-save-load-game-title", "innerHTML": "Load game ..."},
+            {"tagName": "div", "className": "menu__load-cells", "children": [
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC1"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC2"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC3"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC4"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC5"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC6"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC7"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC8"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC9"},
+              {"tagName": "div", "className": "menu__cell cell-load", "innerHTML": "Empty cell...", "id": "lC10"}
+            ]},
+            {"tagName": "button", "className": "button button-menu", "innerHTML": "Menu"}
+          ]},
+          {"tagName": "div", "className": "menu__bar",  "children": [
+            {"tagName": "p", "className": "menu__choice", "innerHTML": "Choose the number of mines and the difficulty of the game"},
+            {"tagName": "div", "className": "menu__bar__input__wrapper", "children": [
+              {"tagName": "div", "className": "menu__bar__input__info", "innerHTML": "Mines from 10 to 99: "},
+              {"tagName": "input", "className": "menu__bar__input", "type": "number", "max": "99", "min": "10", "placeholder": "10"}
+            ]},
+            {"tagName": "button", "className": "button complexity-easy", "innerHTML": "Easy 10 x 10"},
+            {"tagName": "button", "className": "button complexity-normal", "innerHTML": "Normal 15 x 15"},
+            {"tagName": "button", "className": "button complexity-hard", "innerHTML": "Hard 25 x 25"},
+            {"tagName": "hr", "className": "menu__hr"},
+            {"tagName": "button", "className": "button load", "innerHTML": "Load game"},
+            {"tagName": "button", "className": "button continue", "innerHTML": "Back"},
+            {"tagName": "div", "className": "menu__bar__add-buttons", "children": [
+              {"tagName": "button", "className": "button button-toggle-theme", "children": [
+                {"tagName": "div", "className": "button-toggle-theme-inner"}
+              ]},
+              {"tagName": "button", "className": "button button-toggle-voice", "children": [
+                {"tagName": "div", "className": "button-toggle-voice-inner"}
+              ]}
+            ]}
+          ]}
+        ]}
+      ]},
+      {"tagName": "div", "className": "footer", "children": [
+        {"tagName": "div", "className": "container", "children": [
+          {"tagName": "a", "href": "https://github.com/Fileofish?tab=repositories", "target": "_blank", "children": [
+            {"tagName": "span", "innerHTML": "@ 2023 "},
+            {"tagName": "span", "className": "footer__github-icon"},
+            {"tagName": "span", "innerHTML": " Fileofish"}
+          ]},
+          {"tagName": "a", "href": "https://rs.school/", "target": "_blank", "children": [
+            {"tagName": "span", "className": "footer__rss-icon"},
+            {"tagName": "span", "innerHTML": " School"}
+          ]}
+        ]}
+      ]}
+    ]},
+    {"tagName": "selector", "className": "game", "children": [
+      {"tagName": "div", "className": "game__wrapper", "children": [
+        {"tagName": "h1", "className": "game-header", "innerHTML": "<span>M</span>ines<span>w</span>eeper</h1>"},
+        {"tagName": "div", "className": "menu__window-lose", "children": [
+          {"tagName": "div", "className": "menu__window-lose__text", "children": [
+            {"tagName": "p", "innerHTML": "You lose! Try again?"},
+            {"tagName": "span", "innerHTML": "Number of moves: "},
+            {"tagName": "span", "className": "menu__window-lose__text__motion", "innerHTML": "000"},
+            {"tagName": "span", "innerHTML": " Time: "},
+            {"tagName": "span", "className": "menu__window-lose__text__time", "innerHTML": "00:00:00"}
+          ]},
+          {"tagName": "div", "className": "menu__window-lose__buttons", "children": [
+            {"tagName": "button", "className": "button lose__buttons__start-over", "innerHTML": "Try again!"},
+            {"tagName": "button", "className": "button load", "innerHTML": "Load game"}
+          ]}
+        ]},
+        {"tagName": "div", "className": "menu__window-win", "children": [
+          {"tagName": "div", "className": "menu__window-win__text", "children": [
+            {"tagName": "p", "innerHTML": "You win! Congratulations!"},
+            {"tagName": "span", "innerHTML": "Number of moves: "},
+            {"tagName": "span", "className": "menu__window-win__text__motion", "innerHTML": "000"},
+            {"tagName": "span", "innerHTML": " Time: "},
+            {"tagName": "span", "className": "menu__window-win__text__time", "innerHTML": "00:00:00"}
+          ]},
+          {"tagName": "div", "className": "menu__window-win__buttons", "children": [
+            {"tagName": "button", "className": "button start-over", "innerHTML": "Start over"},
+            {"tagName": "button", "className": "button button-menu", "innerHTML": "Menu"}
+          ]}
+        ]},
+        {"tagName": "div", "className": "game__content active", "children": [
+          {"tagName": "p", "className": "game__info", "innerHTML": "The <span class=\"mode\">easy</span> mode is selected. It is necessary to neutralize <span class=\"number-mine\">10</span> mine."},
+          {"tagName": "div", "className": "game__display", "children": [
+            {"tagName": "div", "className": "game__display__motion", "innerHTML": "Motion: 000"},
+            {"tagName": "div", "className": "game__display__timer"},
+            {"tagName": "div", "className": "game__display__num-mine", "innerHTML": "Mine left: 10"}
+          ]},
+          {"tagName": "div", "className": "game__bar", "children": [
+            {"tagName": "button", "className": "button button-menu", "innerHTML": "Menu"},
+            {"tagName": "button", "className": "button start-over", "innerHTML": "Start over"},
+            {"tagName": "button", "className": "button save", "innerHTML": "Save game"}
+          ]}
+        ]},
+        {"tagName": "div", "className": "game__area"}
+      ]}
+    ]},
+    {"tagName": "footer", "className": "footer", "children": [
+      {"tagName": "div", "className": "container", "children": [
+        {"tagName": "a", "href": "https://github.com/Fileofish?tab=repositories", "target": "_blank", "children": [
+          {"tagName": "span", "innerHTML": "@ 2023 "},
+          {"tagName": "span", "className": "footer__github-icon"},
+          {"tagName": "span", "innerHTML": " Fileofish"}
+        ]},
+        {"tagName": "a", "href": "https://rs.school/", "target": "_blank", "children": [
+          {"tagName": "span", "className": "footer__rss-icon"},
+          {"tagName": "span", "innerHTML": " School"}
+        ]}
+      ]}
+    ]}
+  ]}
+]
