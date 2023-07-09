@@ -1,5 +1,5 @@
 # minesweeper
-Minesweeper game. Created as part of the RS School training course "JS / FRONT-END"
+Minesweeper game.
 *********
 Deploy: https://fileofish-minesweeper-2023.netlify.app/
 *********
